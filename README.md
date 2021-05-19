@@ -2,7 +2,7 @@
 
 The purpose of these notebooks is to test various machine learning predictive models on two sets of asset buckets: Tech stocks and Cryptocurrency. The code uses closing prices pulled from Alpaca API and CoinAPI and converted to CSV files for stocks and crypto assets respectively. The notebooks use the past 15 months of data considering highly volatile market to capture post COVID-19 shock across all models for optimal predictions. As the data in this study is of time series nature, we have used ARIMA, XGBoost, and LSTM models since they are time series friendly.
 
-<br /> 
+
 
 ---
 
@@ -23,8 +23,8 @@ numpy, pandas, math, hvplot.pandas, Path from pathlib, seed from numpy.random, r
 **External Resources:** <br />
 BTC_data.csv, ETH_data.csv, LTC_data.csv,  AMZN_GOOG_MSFT_data.csv pulled from Alpaca API and CoinAPI
 
-*Developed with Google Colab* - [Using Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index) <br /> 
-<br /> 
+*Developed with Google Colab* - [Using Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index)
+
 
 ---
 
@@ -63,7 +63,7 @@ BTC_data.csv, ETH_data.csv, LTC_data.csv,  AMZN_GOOG_MSFT_data.csv pulled from A
     5. Specify train/test split ratio <br /> 
     6. Option to change model optimizer to improve performance <br /> 
     7. Specify number of epochs and batch size to optimize <br /> 
-<br /> 
+
 
 ---
 
@@ -78,7 +78,7 @@ BTC_data.csv, ETH_data.csv, LTC_data.csv,  AMZN_GOOG_MSFT_data.csv pulled from A
 **LSTM model example:** <br /> 
 ![lstm_model](Resources/Images/LSTM/lstm_model.png)
 
-<br /> 
+
 
 ---
 
@@ -88,7 +88,7 @@ Drew Disbrow Marnell: dldmarnell@gmail.com <br />
 Yoko Yamamoto: yyamamo222@gmail.com <br /> 
 Apexa Patel: apexa.dhirubhai@gmail.com <br /> 
 Matt Epler: epler.matt@gmail.com <br /> 
-<br /> 
+
 
 ---
 
