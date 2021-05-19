@@ -69,13 +69,13 @@ BTC_data.csv, ETH_data.csv, LTC_data.csv,  AMZN_GOOG_MSFT_data.csv pulled from A
 
 ## Examples
 
-**ARIMA model example:**
+**ARIMA model example:** <br /> 
 ![arima_model](Resources/Images/ARIMA/amzn_model_parameters.png)
 
-**XGBoost model example:**
+**XGBoost model example:** <br /> 
 ![xgboost_model](Resources/Images/XGBoost/xgboost_model.png)
 
-**LSTM model example:**
+**LSTM model example:** <br /> 
 ![lstm_model](Resources/Images/LSTM/lstm_model.png)
 
 <br /> 
