@@ -27,46 +27,50 @@ Developed with Google Colab - [Using Google Colab](https://colab.research.google
 
 ARIMA:
 
-XGBoost:
-    Set up
-        - Read in closing price data
-        - Calculate financial indicators and added to the closing price data frame
-    Usage:
-        - Specify the train, validate, test split ratio
-        - Set the parameters
-        - Option to change the parameters and/or the split ratio to improve performance
+XGBoost: <br /> 
+    Set up: <br /> 
+        - Read in closing price data <br /> 
+        - Calculate financial indicators and added to the closing price data frame <br /> 
+    Usage: <br /> 
+        - Specify the train, validate, test split ratio <br /> 
+        - Set the parameters <br /> 
+        - Option to change the parameters and/or the split ratio to improve performance <br /> 
 
-LSTM:
-    Set Up:
-        - Read in closing price data
-        - Create a dataframe for each set of closing price data
-        - Create a list of all dataframes to be run in the model
-    Usage:
-        - Specify number of units and dropout fraction for the model
-        - Remove or add layers to model as necessary for performance
-        - If using window_data function, specify window size
-        - Select dates to slice the data if necessary
-        - Specify train/test split ratio
-        - Option to change model optimizer to improve performance
-        - Specify number of epochs and batch size to optimize
+LSTM: <br /> 
+    Set Up: <br /> 
+        - Read in closing price data <br /> 
+        - Create a dataframe for each set of closing price data <br /> 
+        - Create a list of all dataframes to be run in the model <br /> 
+    Usage: <br /> 
+        - Specify number of units and dropout fraction for the model <br /> 
+        - Remove or add layers to model as necessary for performance <br /> 
+        - If using window_data function, specify window size <br /> 
+        - Select dates to slice the data if necessary <br /> 
+        - Specify train/test split ratio <br /> 
+        - Option to change model optimizer to improve performance <br /> 
+        - Specify number of epochs and batch size to optimize <br /> 
 
 ---
 
 ## Examples
 
+ARIMA model example:
+
+XGBoost model example:
+![xgboost_model](Resources/Images/XGBoost/xgboost_model.png)
+
+LSTM model example:
+![lstm_model](Resources/Images/LSTM/lstm_model.png)
 
 
 ---
 
 ## Contributors
 
-Drew Disbrow Marnell: dldmarnell@gmail.com
-
-Yoko Yamamoto: yyamamo222@gmail.com
-
-Apexa Patel: apexa.dhirubhai@gmail.com
-
-Matt Epler: epler.matt@gmail.com
+Drew Disbrow Marnell: dldmarnell@gmail.com <br /> 
+Yoko Yamamoto: yyamamo222@gmail.com <br /> 
+Apexa Patel: apexa.dhirubhai@gmail.com <br /> 
+Matt Epler: epler.matt@gmail.com <br /> 
 
 ---
 
