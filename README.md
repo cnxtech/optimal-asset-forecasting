@@ -1,13 +1,12 @@
 # Optimal Asset Forecasting 
 
-The purpose of this project was to test various machine learning predictive models on two sets of asset buckets: Tech stocks and Crypto Currency. We have used Alpaca API and CoinAPI to pull closing price data for stocks and crypto assets respectively. Our study uses past 15 months of data considering highly volatile market to capture post COVID-19 shock across all models for optimal predictions. As the data in this study is of time series nature, we have used ARIMA, XGBoost, and LSTM since they are time series friendly.
+The purpose of these notebooks is to test various machine learning predictive models on two sets of asset buckets: Tech stocks and Cryptocurrency. The code uses closing prices pulled from Alpaca API and CoinAPI and converted to CSV files for stocks and crypto assets respectively. The notebooks use the past 15 months of data considering highly volatile market to capture post COVID-19 shock across all models for optimal predictions. As the data in this study is of time series nature, we have used ARIMA, XGBoost, and LSTM models since they are time series friendly.
 
 ---
 
 ## Technologies
 
 Language: Python3, Pandas 
-
 
 ARIMA Requirements:
 
@@ -29,6 +28,13 @@ Developed with Google Colab - [Using Google Colab](https://colab.research.google
 ARIMA:
 
 XGBoost:
+    Set up
+        - Read in closing price data
+        - Calculate financial indicators and added to the closing price data frame
+    Usage:
+        - Specify the train, validate, test split ratio
+        - Set the parameters
+        - Option to change the parameters and/or the split ratio to improve performance
 
 LSTM:
     Set Up:
@@ -55,8 +61,11 @@ LSTM:
 ## Contributors
 
 Drew Disbrow Marnell: dldmarnell@gmail.com
+
 Yoko Yamamoto: yyamamo222@gmail.com
+
 Apexa Patel: apexa.dhirubhai@gmail.com
+
 Matt Epler: epler.matt@gmail.com
 
 ---
