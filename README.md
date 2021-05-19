@@ -8,16 +8,15 @@ The purpose of this project was to test various machine learning predictive mode
 
 Language: Python3, Pandas 
 
-Imports: 
 
-ARIMA:
+ARIMA Requirements:
 
 
-XGBoost:
+XGBoost Requirements:
 numpy, pandas, xgboost, train_test_split from sklearn.model_selection, GridSearchCV, matplotlib.pyplot, plot_importance from xgboost , plot_tree, mean_squared_error from sklearn.metrics, MinMaxScaler from sklearn.preprocessing 
 
-LSTM:
-numpy, pandas, hvplot.pandas, Path from pathlib, seed from numpy.random, random from tensorflow, MinMaxScaler from sklearn.preprocessing, Sequential from tensorflow.keras.models and LSTM, Dense, Dropout from tensorflow.keras.layers
+LSTM Requirements:
+numpy, pandas, math, hvplot.pandas, Path from pathlib, seed from numpy.random, random from tensorflow, MinMaxScaler from sklearn.preprocessing, Sequential from tensorflow.keras.models and LSTM, Dense, Dropout from tensorflow.keras.layers
 
 External Resources: BTC_data.csv, ETH_data.csv, LTC_data.csv and AMZN_GOOG_MSFT_data.csv
 
@@ -25,9 +24,25 @@ Developed with Google Colab - [Using Google Colab](https://colab.research.google
 
 ---
 
-## Installation
+## Usage
 
+ARIMA:
 
+XGBoost:
+
+LSTM:
+    Set Up:
+        - Read in closing price data
+        - Create a dataframe for each set of closing price data
+        - Create a list of all dataframes to be run in the model
+    Usage:
+        - Specify number of units and dropout fraction for the model
+        - Remove or add layers to model as necessary for performance
+        - If using window_data function, specify window size
+        - Select dates to slice the data if necessary
+        - Specify train/test split ratio
+        - Option to change model optimizer to improve performance
+        - Specify number of epochs and batch size to optimize
 
 ---
 
