@@ -87,7 +87,7 @@ BTC_data.csv, ETH_data.csv, LTC_data.csv,  AMZN_GOOG_MSFT_data.csv pulled from A
 Drew Disbrow Marnell: dldmarnell@gmail.com <br /> 
 Yoko Yamamoto: yyamamo222@gmail.com <br /> 
 Apexa Patel: apexa.dhirubhai@gmail.com <br /> 
-Matt Epler: epler.matt@gmail.com <br /> 
+Matt Epler: epler.matt@gmail.com
 
 
 ---
