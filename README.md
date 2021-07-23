@@ -1,6 +1,6 @@
 # Optimal Asset Forecasting 
 
-The purpose of these notebooks is to test various machine learning predictive models on two sets of asset buckets: Tech stocks and Cryptocurrency. The code uses closing prices pulled from Alpaca API and CoinAPI and converted to CSV files for stocks and crypto assets respectively. The notebooks use the past 15 months of data considering highly volatile market to capture post COVID-19 shock across all models for optimal predictions. As the data in this study is of time series nature, we have used ARIMA, XGBoost, and LSTM models since they are time series friendly.
+The purpose of these notebooks is to test various machine learning predictive models on two sets of asset buckets: Tech stocks and Cryptocurrency. The code uses closing prices pulled from Alpaca API and CoinAPI and converted to CSV files for stocks and crypto assets respectively. The notebooks use the past 15 months of closing price data in a highly volatile market to capture post COVID-19 shock across all models for optimal predictions.  As the data in this study is of time series nature, we have used ARIMA, XGBoost, and LSTM models to forecast stock and crypto prices.
 
 
 
